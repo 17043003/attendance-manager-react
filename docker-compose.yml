@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  front:
+    build: .
+    container_name: react-attendance-manager
+    ports: 
+      - 3000:3000
+    tty: true
+    volumes:
+      - ./src:/src
+    working_dir: "/src/react-attendance-manager"
+    command: yarn start
