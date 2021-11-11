@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 import "./App.css";
 
-import Top from "./Top"
+import Top from "./pages/Top"
 import Login from "./components/Login"
 
 function App() {
