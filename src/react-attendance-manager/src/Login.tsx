@@ -14,7 +14,7 @@ const Login = () => {
             <form onSubmit={handleSubmit(onSubmit)}>
                 <label>Email</label>
                 <input {...register("email", { 
-                    required: true, pattern: /^[a-zA-Z]+@[a-zA-Z]+\.[a-zA-Z]+$/i 
+                    required: true, pattern: /^[a-zA-Z0-9_+-.]+@[a-zA-Z0-9-]+\.[a-zA-Z]+$/i 
                     })} />
                 {errors.email?.type === "pattern" && <span>メールアドレスを入力してください</span>}
                 {errors.email?.type === "required" && <span>メールアドレスは必須です</span>}
