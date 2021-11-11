@@ -1,6 +1,6 @@
 import { Fragment, useState } from "react";
 import { useForm, SubmitHandler } from "react-hook-form"
-import axios from "./utils/axios"
+import axios from "../utils/axios"
 
 type loginFormInput = {
     email: string,
