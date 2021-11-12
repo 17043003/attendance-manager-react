@@ -1,16 +1,16 @@
 import React, { Fragment } from "react";
 import "./App.css";
 
-import Top from "./pages/Top"
-import Login from "./components/Login"
+import Top from "./pages/Top";
+import Login from "./components/Login";
 
 function App() {
   return (
     <Fragment>
-    <div className="App">
-      <Top />
-      <Login />
-    </div>
+      <div className="App">
+        <Top />
+        <Login />
+      </div>
     </Fragment>
   );
 }
