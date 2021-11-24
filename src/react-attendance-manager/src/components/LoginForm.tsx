@@ -7,7 +7,7 @@ type loginFormInput = {
   password: string;
 };
 
-const Login = () => {
+const LoginForm: () => JSX.Element = () => {
   const {
     register,
     handleSubmit,
@@ -57,4 +57,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default LoginForm;
